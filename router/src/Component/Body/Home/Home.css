@@ -1,0 +1,81 @@
+table {
+  border-collapse: collapse;
+  width: 640px;
+  background: linear-gradient(45deg,rgba(40, 40, 44, 0.388),rgba(15, 15, 16, 0.425));
+
+}
+
+th, td {
+  border: 1px solid #afaaaac9;
+  padding: 8px;
+  text-align: left;
+  color: white;
+  outline-offset: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 15px;
+}
+
+.action{
+  padding-left: 24%;
+}
+.id{
+  padding-left: 4%;
+}
+.username{
+  padding-left: 4%;
+}
+
+th {
+  background-color: transparent;
+  color: rgb(227, 224, 224);
+}
+
+button {
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+
+.view-btn {
+  background-color: #ffffffc8;
+  color: rgb(0, 0, 0);
+  border: none;
+  margin-left: 18%;
+  border-radius: 6px;
+}
+.view-btn:hover{
+  background-color: aliceblue;
+}
+
+.edit-btn {
+  background-color: #ffffffc8;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 6px;
+}
+.edit-btn:hover{
+  background-color: aliceblue;
+
+}
+
+.delete-btn {
+  background-color: #ffffffc8;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+  text-decoration: none;
+}
+.delete-btn:hover{
+  background-color: aliceblue;
+
+}
+body{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.467),rgba(0, 0, 0, 0.363)), url("./pexels-diva-plavalaguna-6147023.jpg");
+  background-size: cover;
+
+}
+.tablemain{
+  margin-left: 27%;
+  margin-bottom: 58%;
+  margin-top: 6%;
+}

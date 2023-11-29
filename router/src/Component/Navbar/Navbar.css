@@ -1,0 +1,94 @@
+/* heading sections  */
+.main-section {
+    text-align: center;
+
+}
+
+.main-section h3 {
+    font-weight: 750;
+    margin-top: 1px;
+    color: rgb(212, 225, 239);
+}
+
+/* navbar section  */
+.navbar {
+    background-color: #343232ab;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 2px;
+    border: 1px solid #353333ab;
+     padding: 20px;
+
+}
+
+/* home only  */
+
+/* contents  */
+.nav-main {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+   
+}
+
+.nav-main a span {
+    color: rgb(255, 255, 255);
+}
+
+
+/* no need gift head  */
+.nav-gifts {
+    display: none;
+}
+@media (min-width:330px) and (max-width:575.98px) {
+      /* heading sections  */
+      .main-section {
+        display: none;
+    }
+
+    
+    /* home  */
+    #change-section {
+        width: 40%;
+        margin-left: 30%;
+
+    }
+
+    .nav-main {
+        display: inline;
+        /* justify-content: center; */
+        text-align: center;
+        gap: 13px;
+        margin-top: 15px;
+
+    }
+
+    .nav-main a {
+        color: black;
+    }
+
+    .nav-gifts {
+        font-weight: 750;
+        display: inline;
+        font-size: 26px;
+        letter-spacing: 1px;
+
+    }
+
+    .nav-main a span {
+        color: rgb(0, 0, 0);
+    }
+
+    .nav-main a :hover {
+        color: rgb(7, 7, 7);
+    }
+
+    /* nav full  */
+    .navbar {
+        background-color: #f9ece6;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 20px;
+        border: 1px solid #f9ece6;
+        padding: 40px;
+
+    }
+}
