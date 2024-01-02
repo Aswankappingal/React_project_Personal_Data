@@ -57,6 +57,7 @@ const Register = () => {
   const upload=async(e)=>{
     Photo=await convertToBase64(e.target.files[0]);
     // console.log(Photo);
+    setval((pre)=>({...pre,Photo:Photo}))
 
   }
 
@@ -135,7 +136,7 @@ const Register = () => {
           <div className="col-md-4 ">
             <div className="profile-img">
               <img
-                src="../public/icons_379085.svg"
+                src={val.Photo}
                 alt=""
               />
               <div className="file btn btn-lg btn-primary">
